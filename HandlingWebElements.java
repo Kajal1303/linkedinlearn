@@ -7,7 +7,8 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 
 import static org.testng.Assert.assertEquals;
-//testing for github
+//testing for github 12 july
+//added comment afterstaging
 import java.util.List;
 
 import org.openqa.selenium.By;
