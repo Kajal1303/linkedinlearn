@@ -21,7 +21,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.AfterClass;
 
-public class HandlingWebElements {
+public class HandlingWebElementsexamplesFeatureSchedule {
 	WebDriver driver;
 //This line added n mian branch
 //	@Test
