@@ -23,7 +23,7 @@ import org.testng.annotations.AfterClass;
 
 public class HandlingWebElements {
 	WebDriver driver;
-
+//This line added n mian branch
 //	@Test
 	public void checkboxAndRadioButtonTest() throws InterruptedException {
 		driver.get("https://cookbook.seleniumacademy.com/Config.html");
