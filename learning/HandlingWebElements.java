@@ -24,11 +24,12 @@ import org.testng.annotations.AfterClass;
 public class HandlingWebElementsexamplesFeatureSchedule {
 	WebDriver driver;
 //This line added n mian branch
+///this is feature schedule
 //	@Test
 	public void checkboxAndRadioButtonTest() throws InterruptedException {
 		driver.get("https://cookbook.seleniumacademy.com/Config.html");
 		driver.findElement(By.xpath("//input[@value='Diesel']")).click();
-		Thread.sleep(3000);
+		Thread.sleep(7000);
 		//Select Airbags as an option		
 		WebElement airbags = driver.findElement(By.name("airbags"));
 		
