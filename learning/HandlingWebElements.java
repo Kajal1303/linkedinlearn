@@ -21,7 +21,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.AfterClass;
 
-public class HandlingWebElementsexamplesFeatureSchedule {
+public class HandlingWebElements {
 	WebDriver driver;
 //This line added n mian branch
 ///this is feature schedule
@@ -38,7 +38,7 @@ public class HandlingWebElementsexamplesFeatureSchedule {
 			airbags.click();
 		}
 		
-		Thread.sleep(3000);
+		Thread.sleep(300);
 		//Uncheck the checkbox
 		if (airbags.isSelected()) {
 			airbags.click();
@@ -62,7 +62,7 @@ public class HandlingWebElementsexamplesFeatureSchedule {
 		List<WebElement> allOptions = make.findElements(By.tagName("option"));
 		System.out.println("Total options in the dropdown: " + allOptions.size());
 	
-		Thread.sleep(3000);
+		Thread.sleep(7000);
 		
 		
 		Select makeSelect = new Select(make);
