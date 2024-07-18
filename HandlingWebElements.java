@@ -27,7 +27,7 @@ public class HandlingWebElementsFeatures {
 	public void checkboxAndRadioButtonTest() throws InterruptedException {
 		driver.get("https://cookbook.seleniumacademy.com/Config.html");
 		driver.findElement(By.xpath("//input[@value='Diesel']")).click();
-		Thread.sleep(3000);
+		Thread.sleep(6000);
 		//Select Airbags as an option		
 		WebElement airbags = driver.findElement(By.name("airbags"));
 		
@@ -36,12 +36,12 @@ public class HandlingWebElementsFeatures {
 			airbags.click();
 		}
 		
-		Thread.sleep(3000);
+		Thread.sleep(6000);
 		//Uncheck the checkbox
 		if (airbags.isSelected()) {
 			airbags.click();
 		}
-		Thread.sleep(3000);		
+		Thread.sleep(6000);		
 	}
 	
 //	@Test
